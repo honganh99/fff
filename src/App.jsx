@@ -17,12 +17,12 @@ function App() {
         <Route path="/bag-product" element={<BagPro />} />
         <Route path="/login" element={<Login />}></Route>
         <Route path="/register" element={<Register />}></Route>
-        <Route path="/adminPage" element={<AdminPage />}>
+        {/* <Route path="/adminPage" element={<AdminPage />}>
           <Route index element={<AdminProduct />}></Route>
           <Route path="admin-product" element={<AdminProduct />}></Route>
           <Route path="admin-manage-pro" element={<AdminManagePro />}></Route>
           <Route path="admin-account-detail" element={<AdAccDetail />}></Route>
-        </Route>
+        </Route> */}
       </Routes>
     </div>
   );
